@@ -231,4 +231,4 @@ Some XML in `common.rpf` looks like RDR2 carry-over: `STAGECOACH002X`/`PRISONWAG
 ---
 
 ### Method (reproducibility)
-All probes were small Node scripts that opened GAME_DIR read-only, read byte ranges, and decompressed zlib streams in memory. They did entropy checks, magic-byte scans, zlib carving, string grep, joaat hash matching and XML/RBF0 root listing. No game content was written to the repo. The probe scripts live in the session scratchpad, not the repo; they can be moved into `extract/tools/` if you want them kept.
+All probes were small Node scripts that opened GAME_DIR read-only, read byte ranges, and decompressed zlib streams in memory. They did entropy checks, magic-byte scans, zlib carving, string grep, joaat hash matching and XML/RBF0 root listing. No game content was written to the repo. The probe scripts are in [`extract/tools/`](tools/), one purpose per file (see the first-line comment in each). Run them with `node extract/tools/<script>.mjs <archive> …`. They print to stdout only.
