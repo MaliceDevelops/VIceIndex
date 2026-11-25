@@ -1,7 +1,8 @@
 import { z } from 'zod';
+import { isoDate, overrides, statValues, type FieldMeta } from './common';
 
 /*
- * One field table drives parsing, output shape and SPOTCHECK.md.
+ * One field table drives parsing, data/vehicles.fields.json and SPOTCHECK.md.
  * `path` is where the raw value lives in the game's XML:
  *   perf    = CVehiclePerformanceMaps/Map/Item
  *   ratings = CVehicleBaseRatingsAndEstimatesMap/Map/Item
@@ -40,6 +41,7 @@ export const FIELDS: readonly FieldDef[] = [
   ...(['Road', 'Offroad'] as const).flatMap((s) => RATING_KEYS.map((k) => rating(s, k))),
   { stat: 'ratingStrength', path: ['ratings', 'fStrengthRating'], unitBearing: false, zeroMeansMissing: false },
 ];
+export const STAT_NAMES = FIELDS.map((f) => f.stat);
 
 // ---- raw XML item shapes (strict: any new/missing field fails loudly) ----
 
@@ -61,23 +63,48 @@ export const RatingsItem = z.strictObject({
 export type PerfItem = z.infer<typeof PerfItem>;
 export type RatingsItem = z.infer<typeof RatingsItem>;
 
-// ---- output record ----
+// ---- field metadata (data/vehicles.fields.json): declared once per field ----
 
-export const Stat = z.strictObject({
-  value: z.number().finite().nullable(),
-  unit: z.literal('unconfirmed').nullable(),
-  confidence: z.enum(['low', 'medium', 'high']),
-  source: z.enum(['file', 'derived', 'tested']),
-});
+export function fieldMeta(f: FieldDef): FieldMeta {
+  const root = f.path[0] === 'perf' ? 'CVehiclePerformanceMaps' : 'CVehicleBaseRatingsAndEstimatesMap';
+  return {
+    file: `common.rpf › ${root} › ${f.path.slice(1).join(' › ')}`,
+    unit: f.unitBearing ? 'unconfirmed' : null,
+    ...(f.unitBearing ? {} : { scale: 'unknown, relative only' }),
+    confidence: f.unitBearing ? 'low' : 'medium',
+    source: 'file',
+  };
+}
+
+/** Where each non-stat attribute comes from (written to the fields file so the site can explain it). */
+export const ATTRIBUTES = {
+  name: 'file: progress-menu vehicle label (data.rpf › uiProgressDataset), English text table; falls back to the model label',
+  shortName: 'file: English text label keyed by the model name',
+  manufacturer: 'derived: full name minus the model name, or a manufacturer already derived that way prefixing the full name',
+  group: 'file: progress-menu subgroup id (cars, bikes, watercraft, aircraft, service)',
+  classId: 'file: progress-menu filter id',
+  class: 'file: progress-menu filter label (falls back to the subgroup label when the filter has none)',
+  secondaryClass: 'file: vehicle panel "secondary class" line',
+  era: 'file: vehicle panel "era" line',
+} as const;
+
+// ---- output record: plain values; metadata lives in the fields file ----
 
 export const Vehicle = z.strictObject({
   id: z.string().regex(/^[a-z0-9_]+$/),
   name: z.string().min(1),
+  shortName: z.string().min(1).nullable(),
+  manufacturer: z.string().min(1).nullable(),
+  group: z.string().min(1).nullable(),
+  classId: z.string().min(1).nullable(),
+  class: z.string().min(1).nullable(),
+  secondaryClass: z.string().min(1).nullable(),
+  era: z.string().min(1).nullable(),
   category: z.literal('vehicle'),
-  stats: z.strictObject(Object.fromEntries(FIELDS.map((f) => [f.stat, Stat]))),
+  stats: statValues(STAT_NAMES),
+  overrides: overrides(STAT_NAMES),
   patch: z.string().min(1),
-  updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  updatedAt: isoDate,
 });
 export const Vehicles = z.array(Vehicle);
-export type Stat = z.infer<typeof Stat>;
 export type Vehicle = z.infer<typeof Vehicle>;

@@ -1,0 +1,47 @@
+{
+  "stats": {
+    "damageBar": {
+      "file": "data.rpf › uiProgressDataset › weapon panel › PROG_WEAPONS_DAMAGE",
+      "unit": "in-game bar (0–10)",
+      "confidence": "high",
+      "source": "file",
+      "note": "Length of the bar the weapon menu draws. A relative rating, not a measured stat."
+    },
+    "accuracyBar": {
+      "file": "data.rpf › uiProgressDataset › weapon panel › PROG_WEAPONS_ACCURACY",
+      "unit": "in-game bar (0–10)",
+      "confidence": "high",
+      "source": "file",
+      "note": "Length of the bar the weapon menu draws. A relative rating, not a measured stat."
+    },
+    "handlingBar": {
+      "file": "data.rpf › uiProgressDataset › weapon panel › PROG_WEAPONS_HANDLING",
+      "unit": "in-game bar (0–10)",
+      "confidence": "high",
+      "source": "file",
+      "note": "Length of the bar the weapon menu draws. A relative rating, not a measured stat."
+    },
+    "rangeBar": {
+      "file": "data.rpf › uiProgressDataset › weapon panel › PROG_WEAPONS_RANGE",
+      "unit": "in-game bar (0–10)",
+      "confidence": "high",
+      "source": "file",
+      "note": "Length of the bar the weapon menu draws. A relative rating, not a measured stat."
+    },
+    "magazine": {
+      "file": "data.rpf › uiProgressDataset › weapon panel › PROG_WEAPONS_MAGAZINE",
+      "unit": "rounds",
+      "confidence": "medium",
+      "source": "file",
+      "note": "Number the weapon menu shows as \"Magazine\". Unit read from the label, not measured."
+    }
+  },
+  "attributes": {
+    "name": "file: weapon menu label, English text table",
+    "manufacturer": "file: weapon panel \"manufacturer\" line",
+    "classId": "file: weapon menu filter id",
+    "class": "file: weapon menu filter label (Guns, Melee, Explosives, Variants)",
+    "fireStyle": "file: weapon panel \"firing rate\" line (a style label, not a rate)",
+    "caliber": "file: weapon panel \"caliber\" line"
+  }
+}

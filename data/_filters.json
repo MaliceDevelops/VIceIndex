@@ -1,0 +1,3028 @@
+{
+  "rules": {
+    "floor_value": "Rating exactly 10, the lowest value the file uses for that field (nothing below it). Appears on vehicles the game did not really rate.",
+    "implausible_estimate": "Estimate more than 10x the median of that field across all vehicles (e.g. bicycle quarter-mile ≈ 2092).",
+    "type_inapplicable": "Land-driving stat on a watercraft or aircraft: braking 60-0, road/off-road estimates, road/off-road ratings."
+  },
+  "exclude": [
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "216cstreamer",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "airbus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "airtug",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "airtug",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "airtug",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "airtug",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "alvinov1",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ambulance",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ambulance2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "apc",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "avarus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "benson",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "biff",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bmx",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "boxville",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "brigade",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bulldozer",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bulldozer",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bulldozer",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bulldozer",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "burrito",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "bus2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "buzzard",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "buzzard",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "buzzard",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "buzzard",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "buzzard",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "caddy",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "caddy",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "caddy2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "caddy2",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "carbonrs",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cargobob",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cargobob",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cargobob",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cargobob",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cargobob",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "coach",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crake",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crane",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crane",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crane",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crane",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "cruiser",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "crusher",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "declasse500",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "digger",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "digger",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "digger",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "digger",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "double",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dump",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dump",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "duster2",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy200",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy200",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy200",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy200",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy200",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy80",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy80",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy80",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy80",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "dzy80",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "eboost",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "eboost",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "eboost",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "emerus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "emperor",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "erode",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "esskey",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "fcr",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "firetruk2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "forklift",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "forklift",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "forklift",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "forklift",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "furrowtc2350",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "furrowtc2350",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "golfcarthotrod",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "golfcarthotrod",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "grouse",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "guardiantx2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "hauler",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "hustler",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "iota",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "jet2",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "journey",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lazer",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lectro",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "lombike",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mallard",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mambagt",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mammatus",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "manana",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "maverick",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mb210",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mobilityscooter",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mobilityscooter",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mobilityscooter",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mobilityscooter",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "moocher",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "mule",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nightblade2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbe",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbe",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "nimbus",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "packer",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "parkland",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "phantom3",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "polmav",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "polmav",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "polmav",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "polmav",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "polmav",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "pulsebike",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ragno",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ragno",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "reclaimerclassic",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "rentalbus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "rhino",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "rhino",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ridgway",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ridgway",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "riot",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ripley",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ripley",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ripley",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "ripley",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "rubble",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "rumpo",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "scorcher",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "sfb1000",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shamal",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shifter",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "shuttle",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "slamvan",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "sovereign107",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "speedo",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "spritz",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "stanier55",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "stockade",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "sungrazer",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "supervolito",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swamp",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "swift",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "taco",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "telehandler",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "telehandler",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tiptruck",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "towtruck",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tractor2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tractor2",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "estOffroadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "estRoadStandingQuarterTime",
+      "rules": [
+        "implausible_estimate"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "tribike",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "trotter",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "valkyrie",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "valkyrie",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "valkyrie",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "valkyrie",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "valkyrie",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "vivanite",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingOffroadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingOffroadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingOffroadSpeed",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingRoadHandling",
+      "rules": [
+        "floor_value",
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingRoadOverall",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "volatus",
+      "stat": "ratingRoadSpeed",
+      "rules": [
+        "type_inapplicable"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "wheelchair",
+      "stat": "ratingOffroadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "wheelchair",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "wheelchair",
+      "stat": "ratingRoadAcceleration",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "wheelchair",
+      "stat": "ratingRoadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "woodland",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "youga2",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "yougaxl",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    },
+    {
+      "dataset": "vehicles",
+      "id": "zombieb",
+      "stat": "ratingOffroadBrakes",
+      "rules": [
+        "floor_value"
+      ]
+    }
+  ]
+}

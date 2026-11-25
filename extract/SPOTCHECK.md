@@ -1,8 +1,8 @@
 # Unit spot check: vehicles (game 1.0.2.1)
 
-Every unit-bearing vehicle stat ships as `unit: "unconfirmed"`, `confidence: "low"` until a human measures it in-game. Five vehicles of different types, with the **raw values from the files** (`common.rpf` → `CVehiclePerformanceMaps` / `CVehicleBaseRatingsAndEstimatesMap`).
+Every unit-bearing vehicle stat is declared `unit: "unconfirmed"`, `confidence: "low"` in `data/vehicles.fields.json` until a human measures it in-game. Five vehicles of different types, with the **raw values from the files** (`common.rpf` → `CVehiclePerformanceMaps` / `CVehicleBaseRatingsAndEstimatesMap`).
 
-**Vehicle types are inferred**, not parsed: from the display name, and from Squalo being in the watercraft performance file. Class data exists (RBF0 UI panels) but isn't extracted yet.
+Vehicle classes come from the in-game vehicle menu: Transport Vehicles, Watercraft (Powerboat), Supercars, Bikes (Sports Bike), Trucks.
 
 ## What to measure (in priority order)
 
@@ -20,7 +20,7 @@ Not practical to measure by hand, so they stay `low` until we have another sourc
 
 `0` and `inf` are shown as written in the file. In `data/vehicles.json`, `inf`, and `0` in measurement fields, become `null` ("not measured"). `—` = the vehicle has no entry in that file.
 
-| Field (file path) | Airport Bus (`airbus`) | Squalo (`squalo`) | Zorrusso (`zorrusso`) | FCR 1000 (`fcr`) | Hauler (`hauler`) |
+| Field (file path) | Whiffler Airport Bus (`airbus`) | Shitzu Squalo (`squalo`) | Granforma Zorrusso (`zorrusso`) | Übermacht FCR 1000 (`fcr`) | Cartright Hauler (`hauler`) |
 |---|---:|---:|---:|---:|---:|
 | `topSpeed` | 26.469957 | 19.299129 | 66.737206 | 54.554569 | 29.260109 |
 | `accelZeroTwenty` | 3.783 | 2.417 | 0.917 | 1.116 | 3.666 |
@@ -60,4 +60,4 @@ Not practical to measure by hand, so they stay `low` until we have another sourc
 
 ## Recording results
 
-For each field you confirm, note the vehicle, the in-game reading and the unit. Once a unit is confirmed, the parser can set `unit` for that field and raise `confidence`. Values a human measured directly get `source: "tested"`.
+For each field you confirm, note the vehicle, the in-game reading and the unit. Once a unit is confirmed, the field's `unit` and `confidence` change once in `data/vehicles.fields.json`. A value a human measured directly gets a per-record `overrides` entry with `source: "tested"`.

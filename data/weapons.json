@@ -1,0 +1,3726 @@
+[
+  {
+    "id": "weaponkit_autorifle_assault_character_pete_01",
+    "name": "Pete's KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 5.5,
+      "handlingBar": 5.7,
+      "rangeBar": 6.1,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_excon_discodps_01",
+    "name": "Drug Mule KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 4.5,
+      "handlingBar": 5.9,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_reward_lpn_01",
+    "name": "La Polilla Negra KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 5.2,
+      "handlingBar": 5.2,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_reward_m7_01",
+    "name": "Marabunta Grande KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 4.5,
+      "handlingBar": 6,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_reward_s4s_01",
+    "name": "San4San KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 5.3,
+      "handlingBar": 5.5,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_shop_featured_01",
+    "name": "Nightmare KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 6.3,
+      "handlingBar": 4.8,
+      "rangeBar": 5.9,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_assault_short_shop_featured_01",
+    "name": "Little Cuba Hind",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 3.5,
+      "handlingBar": 6.8,
+      "rangeBar": 4.5,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_battle_reward_guardia_01",
+    "name": "Guardia Brothers FRA",
+    "manufacturer": "Armurerie de Belgique",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.8,
+      "accuracyBar": 4.6,
+      "handlingBar": 6,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_bullpup_cmp_drgkp_01",
+    "name": "Kingpin Heathen",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "3-Round Burst",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.9,
+      "handlingBar": 5.1,
+      "rangeBar": 6.6,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_bullpup_shop_featured_01",
+    "name": "Vice City Heathen",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "3-Round Burst",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 7.4,
+      "handlingBar": 5.1,
+      "rangeBar": 6.2,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_character_raul_01",
+    "name": "Raul's CQB 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 5.7,
+      "handlingBar": 6.9,
+      "rangeBar": 5.6,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_character_raul_02",
+    "name": "Raul's Heist 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.5,
+      "handlingBar": 6.5,
+      "rangeBar": 5.6,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_excon_discopsu_01",
+    "name": "Cockroach Xtreme 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.1,
+      "handlingBar": 6.1,
+      "rangeBar": 5.5,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_excon_puzzbwsh_01",
+    "name": "Cold War 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 7.5,
+      "handlingBar": 4,
+      "rangeBar": 7.3,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_reward_cmp_wpnex_02",
+    "name": "GRX 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.3,
+      "handlingBar": 5.9,
+      "rangeBar": 5.8,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_reward_kolt_01",
+    "name": "Clunker 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 5.8,
+      "handlingBar": 6.8,
+      "rangeBar": 5.8,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_reward_kolt_02",
+    "name": "Kolt & Associates 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 7.5,
+      "handlingBar": 5.2,
+      "rangeBar": 6.1,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_carbine_shop_featured_01",
+    "name": "Star Spangled 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.6,
+      "handlingBar": 5.3,
+      "rangeBar": 6.2,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_autorifle_special_reward_lpn_01",
+    "name": "La Polilla Negra VF-G1",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.2,
+      "handlingBar": 6.2,
+      "rangeBar": 5.6,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_heavy_gpmg_character_kordell_01",
+    "name": "Francisco's LMG 6",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 3.9,
+      "handlingBar": 2,
+      "rangeBar": 6.5,
+      "magazine": 100
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_heavy_gpmg_puzzscp3_01",
+    "name": "Mercenary LMG 6",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 3.6,
+      "handlingBar": 2.3,
+      "rangeBar": 6.5,
+      "magazine": 100
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_bat_character_baelux_01",
+    "name": "Bae-Luxe's Bat",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_bat_metal_excon_discodw_01",
+    "name": "Buntosaurus Bat",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_bat_reward_candysuxx_01",
+    "name": "Candy Suxxx Bat",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_combat_excon_discohtot_01",
+    "name": "Soldier's Combat Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_diver_discoapp2",
+    "name": "Explorer's Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_diver_excon_discosc_01",
+    "name": "Shark Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_fixed_character_donnie_01",
+    "name": "Donnie's Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_fixed_excon_secrelm3_01",
+    "name": "Cursed Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_melee_knife_fixed_ie_puzzthp_01",
+    "name": "Tallaloko Knife",
+    "manufacturer": null,
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_civilian_character_lucia_prologue",
+    "name": "Low Point Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3,
+      "handlingBar": 9,
+      "rangeBar": 3,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_civilian_excon_discocp1_01",
+    "name": "Turnt Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3.2,
+      "handlingBar": 8.8,
+      "rangeBar": 3,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_civilian_excon_puzzbwsb_01",
+    "name": "Assassin Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3.5,
+      "handlingBar": 8.7,
+      "rangeBar": 2.7,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_civilian_reward_3am_01",
+    "name": "Zodiac Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3.5,
+      "handlingBar": 8.8,
+      "rangeBar": 3,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_civilian_shop_featured_01",
+    "name": "Mahi Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3,
+      "handlingBar": 9,
+      "rangeBar": 3,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_fiftycal_character_gil_01",
+    "name": "Gil's Kalinga .50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".50 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4.3,
+      "handlingBar": 7.9,
+      "rangeBar": 5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_fiftycal_excon_discopt1_01",
+    "name": "Convict Kalinga .50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".50 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.4,
+      "rangeBar": 5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_fiftycal_reward_puzzbew_01",
+    "name": "Black Eagle Import Kalinga .50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".50 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.6,
+      "rangeBar": 5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_military_bonus_jason_01",
+    "name": "Duval Signature ES9",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.5,
+      "handlingBar": 8.2,
+      "rangeBar": 4.7,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_military_burst_reward_guardia_01",
+    "name": "The Guardian ES18",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "3-Round Burst",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.5,
+      "handlingBar": 7.7,
+      "rangeBar": 4.8,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_military_reward_ccart_01",
+    "name": "Quarter Mile ES9",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.6,
+      "handlingBar": 8.3,
+      "rangeBar": 4.2,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_military_shop_featured_01",
+    "name": "Sand Storm ES9",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.2,
+      "handlingBar": 8.4,
+      "rangeBar": 4.4,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_auto_excon_discomdd_01",
+    "name": "Stoner K17 MCD",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 3.2,
+      "handlingBar": 7.6,
+      "rangeBar": 4.2,
+      "magazine": 33
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_auto_ie_dump_01",
+    "name": "Dumpster K17 MCD",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 3.7,
+      "handlingBar": 7.1,
+      "rangeBar": 4.5,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_bonus_lucia_01",
+    "name": "Caminos Signature K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.2,
+      "handlingBar": 8.5,
+      "rangeBar": 3.8,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_character_dwnply_01",
+    "name": "DWNPLY's K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.5,
+      "handlingBar": 8.2,
+      "rangeBar": 4.1,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_excon_discodca_01",
+    "name": "EJ's K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.5,
+      "handlingBar": 8.5,
+      "rangeBar": 3.8,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_reward_ptt_01",
+    "name": "PTT Youngin$ K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.5,
+      "handlingBar": 7.9,
+      "rangeBar": 4.1,
+      "magazine": 33
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_reward_s4s_01",
+    "name": "San4San K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.6,
+      "handlingBar": 7.8,
+      "rangeBar": 3.8,
+      "magazine": 33
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_polymer_shop_featured_01",
+    "name": "Nite Raptor K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.9,
+      "handlingBar": 8,
+      "rangeBar": 4.1,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_character_brian_01",
+    "name": "Brian's 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 5.1,
+      "handlingBar": 8.1,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_character_monty_01",
+    "name": "Monty's 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_character_raul_01",
+    "name": "Raul's 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 5.3,
+      "handlingBar": 7.6,
+      "rangeBar": 4.9,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_excon_dtmku_01",
+    "name": "Brainwasher 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_excon_puzzbwpb_01",
+    "name": "Russo's 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_excon_puzzmba2_01",
+    "name": "Deadringer 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_excon_puzzmba2_02",
+    "name": "Money Bag 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_excon_secreotrbf_01",
+    "name": "Martha's 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_service_shop_featured_01",
+    "name": "The Silver 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 5.1,
+      "handlingBar": 8.1,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_tactical_excon_discoopvc_01",
+    "name": "The Patriarch DRX",
+    "manufacturer": "Schlamm",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.9,
+      "handlingBar": 7.2,
+      "rangeBar": 4.2,
+      "magazine": 21
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_pistol_tactical_shop_featured_01",
+    "name": "Rogue Alpha DRX",
+    "manufacturer": "Schlamm",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.4,
+      "handlingBar": 8,
+      "rangeBar": 4.2,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_civilian_character_donnie_01",
+    "name": "Donnie's H&L .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5,
+      "handlingBar": 9,
+      "rangeBar": 4.1,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_civilian_excon_puzzscp1d_01",
+    "name": "Cargo H&L .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5,
+      "handlingBar": 8.6,
+      "rangeBar": 4.5,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_civilian_excon_secreotrcf_01",
+    "name": "Lyle's H&L .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5,
+      "handlingBar": 9,
+      "rangeBar": 4.1,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_civilian_reward_fchapter_01",
+    "name": "Ride Free H&L .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5.3,
+      "handlingBar": 8.2,
+      "rangeBar": 4.9,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_civilian_shop_featured_01",
+    "name": "Jack Sheepe H&L .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5.2,
+      "handlingBar": 8,
+      "rangeBar": 4.9,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_compact_shop_featured_01",
+    "name": "Iron & Oak WCR1",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.2,
+      "accuracyBar": 4.1,
+      "handlingBar": 8.8,
+      "rangeBar": 4.7,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_heavy_excon_discocs2_01",
+    "name": "Swamp Bait Akulus",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".44 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.2,
+      "rangeBar": 6.4,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_heavy_reward_kfish_01",
+    "name": "Kingfishers Akulus",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".44 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 5.3,
+      "handlingBar": 7.2,
+      "rangeBar": 6.4,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_magnum_excon_discosts_01",
+    "name": "Couch Potato Mustang .357",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".357 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.7,
+      "accuracyBar": 4.5,
+      "handlingBar": 8.4,
+      "rangeBar": 5.1,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_revolver_magnum_shop_featured_01",
+    "name": "Honky Tonk Mustang .357",
+    "manufacturer": "Duke",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".357 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.7,
+      "accuracyBar": 5,
+      "handlingBar": 7.2,
+      "rangeBar": 5.9,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_assault_excon_discoklmg_01",
+    "name": "Unpacked Comshot 12",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.7,
+      "accuracyBar": 4.5,
+      "handlingBar": 3.7,
+      "rangeBar": 2.5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_assault_mission_dtchdt_01",
+    "name": "Hellspawn Comshot 12",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.7,
+      "accuracyBar": 4.2,
+      "handlingBar": 4,
+      "rangeBar": 2.5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_auto_reward_fchapter_01",
+    "name": "Final Chapter KVGA-12",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.2,
+      "accuracyBar": 5.5,
+      "handlingBar": 4.5,
+      "rangeBar": 2.1,
+      "magazine": 12
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_combat_cmp_grlab_01",
+    "name": "Hostile Super400",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 4.3,
+      "handlingBar": 5.3,
+      "rangeBar": 3.3,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_combat_shop_featured_01",
+    "name": "Bruiser Super400",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 4.2,
+      "handlingBar": 5.3,
+      "rangeBar": 2.5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_double_shop_featured_01",
+    "name": "Woodhatch Longshot",
+    "manufacturer": "Mason & Keen",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 4.4,
+      "handlingBar": 5,
+      "rangeBar": 2.5,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_double_short_cmp_cwash_01",
+    "name": "Final Chapter Shortstraw",
+    "manufacturer": "Mason & Keen",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 3.6,
+      "handlingBar": 6,
+      "rangeBar": 2.4,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_reward_kolt_01",
+    "name": "Gutterball Moreland 850",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 5.7,
+      "handlingBar": 3.6,
+      "rangeBar": 2.9,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_reward_law_01",
+    "name": "CPD Moreland 850",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 4.9,
+      "handlingBar": 4.9,
+      "rangeBar": 2.5,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_shop_featured_01",
+    "name": "Watcher Pro Moreland 850",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 4.4,
+      "handlingBar": 5,
+      "rangeBar": 2.5,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_short_excon_discodaic_01",
+    "name": "Smuggler Gorse 425",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 3.8,
+      "handlingBar": 6.2,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_short_reward_s4s_01",
+    "name": "San4San Gorse 425",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 3.6,
+      "handlingBar": 6.7,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_pumpaction_short_shop_featured_01",
+    "name": "Basher Gorse 425",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 4.1,
+      "handlingBar": 5.9,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_sbs_shop_featured_01",
+    "name": "Darknite Drifter",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 4.7,
+      "handlingBar": 4.7,
+      "rangeBar": 2.5,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_sbs_short_ie_tortr_01",
+    "name": "Marabunta Grande Hobo",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 3.6,
+      "handlingBar": 6.4,
+      "rangeBar": 2,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_sbs_short_shop_featured_01",
+    "name": "Backdoor Hobo",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 3.6,
+      "handlingBar": 6.4,
+      "rangeBar": 2,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_sbs_standard_excon_discomc_01",
+    "name": "Dirty Drifter",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 4.3,
+      "handlingBar": 4.8,
+      "rangeBar": 2.5,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_semiauto_shop_featured_01",
+    "name": "Nitepower AZ1200",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 5.1,
+      "handlingBar": 5.8,
+      "rangeBar": 2.1,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_shotgun_semiauto_short_reward_fchapter_01",
+    "name": "Throttler Verro",
+    "manufacturer": "Girardi",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 4.2,
+      "handlingBar": 6.6,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_combatpdw_ie_furpt_01",
+    "name": "Furry DW-9",
+    "manufacturer": "Zhang Wu",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.1,
+      "rangeBar": 4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_combatpdw_shop_featured_01",
+    "name": "Dazzler DW-9",
+    "manufacturer": "Schlamm",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 6.3,
+      "handlingBar": 4.6,
+      "rangeBar": 4.2,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_compact_excon_secrearo_01",
+    "name": "Crabshack VF5",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.1,
+      "rangeBar": 4.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_compact_ie_psmug_01",
+    "name": "Midlife Crisis VF5",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.3,
+      "handlingBar": 6,
+      "rangeBar": 4.5,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_compact_reward_guardia_01",
+    "name": "Guardia Brothers VF5",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 6.7,
+      "handlingBar": 4.5,
+      "rangeBar": 4.2,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_compact_reward_kolt_short_01",
+    "name": "Scrapper VF5C",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.5,
+      "handlingBar": 7.2,
+      "rangeBar": 3.7,
+      "magazine": 40
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_heavy_cmp_indwg_01",
+    "name": "Chronic Vatra",
+    "manufacturer": "Bohemia Zbraň Industries",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.5,
+      "handlingBar": 4.6,
+      "rangeBar": 3.6,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_heavy_excon_puzzys_01",
+    "name": "Double Cross Vatra",
+    "manufacturer": "Bohemia Zbraň Industries",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.8,
+      "handlingBar": 6.5,
+      "rangeBar": 3.6,
+      "magazine": 36
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_heavy_reward_kolt_01",
+    "name": "Kolt & Associates Vatra",
+    "manufacturer": "Bohemia Zbraň Industries",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.8,
+      "handlingBar": 5.3,
+      "rangeBar": 3.6,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_heavy_shop_featured_01",
+    "name": "Spangled Vatra",
+    "manufacturer": "Bohemia Zbraň Industries",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4,
+      "handlingBar": 6.3,
+      "rangeBar": 4,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_machine_excon_discoba_01",
+    "name": "Conspiracist Type 9",
+    "manufacturer": "Zhang Wu",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5,
+      "handlingBar": 5.8,
+      "rangeBar": 3.9,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_machine_reward_m7_01",
+    "name": "Marabunta Grande Type 9",
+    "manufacturer": "Armurerie de Belgique",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.5,
+      "handlingBar": 6.7,
+      "rangeBar": 3.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_machine_shop_featured_01",
+    "name": "Neon Sunset Type 9",
+    "manufacturer": "Zhang Wu",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.3,
+      "handlingBar": 6.6,
+      "rangeBar": 3.9,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_character_dimez_01",
+    "name": "Roxy's W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.2,
+      "handlingBar": 7.5,
+      "rangeBar": 3.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_character_dimez_02",
+    "name": "Bae-Luxe's W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.2,
+      "handlingBar": 7.5,
+      "rangeBar": 3.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_character_tyrone_01",
+    "name": "Tyrone's W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.7,
+      "handlingBar": 5.4,
+      "rangeBar": 3.5,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_reward_excon_01",
+    "name": "Little Friend W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.4,
+      "handlingBar": 6.6,
+      "rangeBar": 3.2,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_reward_s4s_01",
+    "name": "Chromium W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.1,
+      "handlingBar": 6.9,
+      "rangeBar": 3.2,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_micro_shop_featured_01",
+    "name": "Moneymaker W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.2,
+      "handlingBar": 6.5,
+      "rangeBar": 3.9,
+      "magazine": 50
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_tactical_cmp_goods_01",
+    "name": "Eris Fresh DSG",
+    "manufacturer": "Deever Tech",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "3-Round Burst",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.8,
+      "handlingBar": 7.3,
+      "rangeBar": 4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_smg_tactical_shop_featured_01",
+    "name": "Pocketblast DSG",
+    "manufacturer": "Deever Tech",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "3-Round Burst",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.2,
+      "handlingBar": 5.9,
+      "rangeBar": 4.4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_country_css_mmgmp_01",
+    "name": "Mister Mangrove Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 8.4,
+      "handlingBar": 4.7,
+      "rangeBar": 7.8,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_country_excon_discohs2_01",
+    "name": "Twin's Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 8.3,
+      "handlingBar": 4.6,
+      "rangeBar": 7.1,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_country_ie_ha_01",
+    "name": "Hunter's Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 8.8,
+      "handlingBar": 4,
+      "rangeBar": 8,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_country_reward_kfish_01",
+    "name": "Kingfishers Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 7.8,
+      "handlingBar": 4.8,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_country_shop_featured_01",
+    "name": "Fincredible Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 8.4,
+      "handlingBar": 4,
+      "rangeBar": 8.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_heavy_ie_murder_01",
+    "name": "Island Poacher FF-50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": ".338 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8.5,
+      "accuracyBar": 8.2,
+      "handlingBar": 2.4,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_adv_excon_secresdr3_01",
+    "name": "IAA SMS-01",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.8,
+      "handlingBar": 2.8,
+      "rangeBar": 8.9,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_adv_ie_gunnt_01",
+    "name": "Gun Nut SMS-01",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.6,
+      "handlingBar": 3.2,
+      "rangeBar": 8.3,
+      "magazine": 10
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_excon_discocs2_01",
+    "name": "Cruel Huntsman's SM-69",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.4,
+      "handlingBar": 3.2,
+      "rangeBar": 8.3,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_excon_secresdr2_01",
+    "name": "FIB SM-69",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.6,
+      "handlingBar": 2.2,
+      "rangeBar": 8.8,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_mission_collehunt_01",
+    "name": "Killtelligence SM-69",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.4,
+      "handlingBar": 2.7,
+      "rangeBar": 8.4,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_hunter_shop_featured_01",
+    "name": "Firebreak SM-69",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 8.4,
+      "handlingBar": 2.6,
+      "rangeBar": 8.9,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_sniper_service_excon_secresdr4_01",
+    "name": "Internal Affairs FF-SR",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Bolt Action",
+    "caliber": ".338 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 8.5,
+      "handlingBar": 2.9,
+      "rangeBar": 7.8,
+      "magazine": 10
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_carbine_shop_featured_01",
+    "name": "Mossy Mediator",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.8,
+      "accuracyBar": 8.1,
+      "handlingBar": 5.1,
+      "rangeBar": 7,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_hunting_excon_puzzscp2_01",
+    "name": "Copperheads W-14",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".22 LR",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.8,
+      "accuracyBar": 7.9,
+      "handlingBar": 5.2,
+      "rangeBar": 6.3,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_hunting_shop_featured_01",
+    "name": "Shack Attack W-14",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.8,
+      "accuracyBar": 7.2,
+      "handlingBar": 5.5,
+      "rangeBar": 6.8,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_marksman_adv_excon_puzzbew_01",
+    "name": "Black Eagle Import M306 TMR",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.2,
+      "accuracyBar": 9.5,
+      "handlingBar": 4.1,
+      "rangeBar": 7.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_sporting_excon_discotif_01",
+    "name": "Redneck W-22",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".22 LR",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 1.5,
+      "accuracyBar": 8.3,
+      "handlingBar": 5.6,
+      "rangeBar": 7,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponkit_tacrifle_sporting_reward_kfish_01",
+    "name": "Kingfishers W-22",
+    "manufacturer": "Wortham",
+    "classId": "weapons_variants",
+    "class": "Variants",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".22 LR",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 1.5,
+      "accuracyBar": 8.4,
+      "handlingBar": 5.4,
+      "rangeBar": 6.7,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_assault_default",
+    "name": "Kozlov KZ-59",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 5.2,
+      "handlingBar": 5.2,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_assault_short",
+    "name": "Kozlov Hind",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×39mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.4,
+      "accuracyBar": 4.5,
+      "handlingBar": 6.1,
+      "rangeBar": 4.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_battle_default",
+    "name": "AdB FRA",
+    "manufacturer": "Armurerie de Belgique",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.8,
+      "accuracyBar": 5,
+      "handlingBar": 5.3,
+      "rangeBar": 6.9,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_bullpup_default",
+    "name": "Hillinger Heathen",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "3-Round Burst",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.2,
+      "handlingBar": 5.8,
+      "rangeBar": 6.2,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_carbine_default",
+    "name": "Duke 556",
+    "manufacturer": "Duke",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6,
+      "handlingBar": 5.8,
+      "rangeBar": 6.2,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_autorifle_special_default",
+    "name": "Vom Feuer VF-G1",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5,
+      "accuracyBar": 6.2,
+      "handlingBar": 5.8,
+      "rangeBar": 6.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_heavy_combatmg_default",
+    "name": "AdB M350",
+    "manufacturer": "Armurerie de Belgique",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 3,
+      "handlingBar": 3.2,
+      "rangeBar": 6.2,
+      "magazine": 100
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_heavy_gpmg_default",
+    "name": "Goodwin LMG 6",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 2.8,
+      "handlingBar": 2.8,
+      "rangeBar": 6.5,
+      "magazine": 100
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_launched_compactgl_default",
+    "name": "Hillinger Boomer",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Single Shot",
+    "caliber": "40mm Grenade",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 9.2,
+      "accuracyBar": 5,
+      "handlingBar": 6,
+      "rangeBar": 4,
+      "magazine": 1
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_launched_grenade_default",
+    "name": "Deever Tech GLR40",
+    "manufacturer": "Deever Tech",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "40mm Grenade",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 9.2,
+      "accuracyBar": 6,
+      "handlingBar": 5,
+      "rangeBar": 4,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_launched_rpg_default",
+    "name": "Hauners H-AT",
+    "manufacturer": "Hauners Industries",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Single Shot",
+    "caliber": "66mm Rocket",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 9.6,
+      "accuracyBar": 4.5,
+      "handlingBar": 3,
+      "rangeBar": 8,
+      "magazine": 1
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_bat_default",
+    "name": "Baseball Bat",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_golfclub_default",
+    "name": "Golf Club",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_hammer_default",
+    "name": "Hammer",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_knife_default",
+    "name": "Knife",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_knife_switchblade",
+    "name": "Switchblade",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_knuckle_default",
+    "name": "Brass Knuckles",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_machete_default",
+    "name": "Heavy-Duty Blade",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_pipewrench_default",
+    "name": "Wrench",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_melee_poolcue_default",
+    "name": "Pool Cue",
+    "manufacturer": null,
+    "classId": "weapons_melee",
+    "class": "Melee",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_civilian_default",
+    "name": "Scorpio Nipper .38",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".380 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.8,
+      "accuracyBar": 3,
+      "handlingBar": 9,
+      "rangeBar": 3,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_fiftycal_default",
+    "name": "Fairview Kalinga .50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".50 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4,
+      "handlingBar": 7.8,
+      "rangeBar": 5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_military_burst",
+    "name": "Girardi ES18",
+    "manufacturer": "Girardi",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "3-Round Burst",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.4,
+      "handlingBar": 8.2,
+      "rangeBar": 4.8,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_military_default",
+    "name": "Girardi ES9",
+    "manufacturer": "Girardi",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5.2,
+      "handlingBar": 8.4,
+      "rangeBar": 4.4,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_polymer_auto",
+    "name": "Klose K17 MCD",
+    "manufacturer": "Klose",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 3.2,
+      "handlingBar": 8,
+      "rangeBar": 4.2,
+      "magazine": 24
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_polymer_default",
+    "name": "Klose K17",
+    "manufacturer": "Klose",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.2,
+      "handlingBar": 8.5,
+      "rangeBar": 3.8,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_service_default",
+    "name": "Duke 1922",
+    "manufacturer": "Duke",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".45 Cal",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.5,
+      "accuracyBar": 4.8,
+      "handlingBar": 8,
+      "rangeBar": 4.6,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_pistol_tactical_default",
+    "name": "Schlamm DRX",
+    "manufacturer": "Schlamm",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4,
+      "accuracyBar": 4.2,
+      "handlingBar": 8.2,
+      "rangeBar": 4.2,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_revolver_civilian_default",
+    "name": "Hawk & Little .38",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.5,
+      "accuracyBar": 5,
+      "handlingBar": 8.6,
+      "rangeBar": 4.5,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_revolver_compact_default",
+    "name": "Wortham WCR1",
+    "manufacturer": "Wortham",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".38 Special",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 2.2,
+      "accuracyBar": 3.8,
+      "handlingBar": 9,
+      "rangeBar": 4.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_revolver_heavy_default",
+    "name": "Scorpio Akulus",
+    "manufacturer": "Scorpio",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".44 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7,
+      "accuracyBar": 4.2,
+      "handlingBar": 7.6,
+      "rangeBar": 6,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_revolver_long_default",
+    "name": "Hawk & Little Morgan",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".44 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.7,
+      "accuracyBar": 5.4,
+      "handlingBar": 7.8,
+      "rangeBar": 6,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_revolver_magnum_default",
+    "name": "Duke Mustang .357",
+    "manufacturer": "Duke",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".357 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.7,
+      "accuracyBar": 4.5,
+      "handlingBar": 8,
+      "rangeBar": 5.5,
+      "magazine": 6
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_assault_default",
+    "name": "Goodwin Comshot 12",
+    "manufacturer": "Goodwin",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.7,
+      "accuracyBar": 4.2,
+      "handlingBar": 4,
+      "rangeBar": 2.5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_auto_default",
+    "name": "Kozlov KVGA-12",
+    "manufacturer": "Kozlov",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.2,
+      "accuracyBar": 4.5,
+      "handlingBar": 5.1,
+      "rangeBar": 2.5,
+      "magazine": 8
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_combat_default",
+    "name": "Girardi Super400",
+    "manufacturer": "Girardi",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 4.2,
+      "handlingBar": 5.3,
+      "rangeBar": 2.5,
+      "magazine": 7
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_double_default",
+    "name": "Mason & Keen Longshot",
+    "manufacturer": "Mason & Keen",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 4.1,
+      "handlingBar": 5,
+      "rangeBar": 2.5,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_double_short",
+    "name": "Mason & Keen Shortstraw",
+    "manufacturer": "Mason & Keen",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 3.6,
+      "handlingBar": 6.4,
+      "rangeBar": 2,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_pumpaction_default",
+    "name": "Fortune & Son Moreland 850",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 4.2,
+      "handlingBar": 5.6,
+      "rangeBar": 2.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_pumpaction_short",
+    "name": "Fortune & Son Gorse 425",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Pump Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.5,
+      "accuracyBar": 3.8,
+      "handlingBar": 6.2,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_sbs_default",
+    "name": "Shrewsbury Drifter",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 4.1,
+      "handlingBar": 5,
+      "rangeBar": 2.5,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_sbs_short",
+    "name": "Shrewsbury Hobo",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Break Action",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 3.6,
+      "handlingBar": 6.4,
+      "rangeBar": 2,
+      "magazine": 2
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_semiauto_default",
+    "name": "Girardi AZ1200",
+    "manufacturer": "Girardi",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 4.5,
+      "handlingBar": 5.8,
+      "rangeBar": 2.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_shotgun_semiauto_short",
+    "name": "Girardi Verro",
+    "manufacturer": "Girardi",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "12-Gauge",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 7.4,
+      "accuracyBar": 3.9,
+      "handlingBar": 6.5,
+      "rangeBar": 2,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_assault_default",
+    "name": "AdB PD-90",
+    "manufacturer": "Armurerie de Belgique",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "5.7×28mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.8,
+      "handlingBar": 6.6,
+      "rangeBar": 4.2,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_combatpdw_default",
+    "name": "Schlamm DW-9",
+    "manufacturer": "Schlamm",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.5,
+      "handlingBar": 6.8,
+      "rangeBar": 4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_compact_default",
+    "name": "Vom Feuer VF5",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5,
+      "handlingBar": 6.7,
+      "rangeBar": 4.5,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_compact_short",
+    "name": "Vom Feuer VF5C",
+    "manufacturer": "Vom Feuer",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 5,
+      "handlingBar": 6.9,
+      "rangeBar": 4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_heavy_default",
+    "name": "BZI Vatra",
+    "manufacturer": "Bohemia Zbraň Industries",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.8,
+      "handlingBar": 6.5,
+      "rangeBar": 4,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_machine_default",
+    "name": "Zhang Wu Type 9",
+    "manufacturer": "Zhang Wu",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.8,
+      "handlingBar": 7.8,
+      "rangeBar": 3.5,
+      "magazine": 10
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_micro_default",
+    "name": "Wortham W-10",
+    "manufacturer": "Wortham",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Full Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 3.2,
+      "handlingBar": 7.5,
+      "rangeBar": 3.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_smg_tactical_default",
+    "name": "Deever Tech DSG",
+    "manufacturer": "Deever Tech",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "3-Round Burst",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.2,
+      "accuracyBar": 4.2,
+      "handlingBar": 6.9,
+      "rangeBar": 4,
+      "magazine": 30
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_sniper_country_default",
+    "name": "Fortune & Son Laird 350",
+    "manufacturer": "Fortune & Son",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Bolt Action",
+    "caliber": "6.5mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.5,
+      "accuracyBar": 8,
+      "handlingBar": 4.5,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_sniper_heavy_default",
+    "name": "Fairview FF-50",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Bolt Action",
+    "caliber": ".50 BFG",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8.5,
+      "accuracyBar": 7,
+      "handlingBar": 3.5,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_sniper_hunter_adv",
+    "name": "Shrewsbury SMS-01",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 7.8,
+      "handlingBar": 4.6,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_sniper_hunter_default",
+    "name": "Shrewsbury SM-69",
+    "manufacturer": "Shrewsbury",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Bolt Action",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.8,
+      "accuracyBar": 7.6,
+      "handlingBar": 4,
+      "rangeBar": 7.5,
+      "magazine": 5
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_sniper_service_default",
+    "name": "Fairview FF-SR",
+    "manufacturer": "Fairview Firearms",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Bolt Action",
+    "caliber": ".338 Magnum",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 8,
+      "accuracyBar": 7.5,
+      "handlingBar": 3.8,
+      "rangeBar": 7.5,
+      "magazine": 10
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_tacrifle_carbine_default",
+    "name": "Hawk & Little Mediator",
+    "manufacturer": "Hawk & Little",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "9mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 4.8,
+      "accuracyBar": 7.8,
+      "handlingBar": 5.6,
+      "rangeBar": 7,
+      "magazine": 17
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_tacrifle_hunting_default",
+    "name": "Wortham W-14",
+    "manufacturer": "Wortham",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "5.56×45mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 5.8,
+      "accuracyBar": 7.5,
+      "handlingBar": 5.2,
+      "rangeBar": 7.2,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_tacrifle_marksman_adv",
+    "name": "Hillinger M306 TMR",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.2,
+      "accuracyBar": 7.8,
+      "handlingBar": 5.5,
+      "rangeBar": 7.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_tacrifle_marksman_default",
+    "name": "Hillinger M306",
+    "manufacturer": "Hillinger",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": "7.62×51mm",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 6.2,
+      "accuracyBar": 7.5,
+      "handlingBar": 4.8,
+      "rangeBar": 7.5,
+      "magazine": 20
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_tacrifle_sporting_default",
+    "name": "Wortham W-22",
+    "manufacturer": "Wortham",
+    "classId": "weapons_guns",
+    "class": "Guns",
+    "fireStyle": "Semi-Auto",
+    "caliber": ".22 LR",
+    "category": "weapon",
+    "stats": {
+      "damageBar": 1.5,
+      "accuracyBar": 8,
+      "handlingBar": 5.8,
+      "rangeBar": 7,
+      "magazine": 15
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_thrown_bomb_default",
+    "name": "Sticky Bomb",
+    "manufacturer": null,
+    "classId": "weapons_throwable",
+    "class": "Explosives",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_thrown_flashbang_default",
+    "name": "Flash Grenade",
+    "manufacturer": null,
+    "classId": "weapons_throwable",
+    "class": "Explosives",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_thrown_grenade_default",
+    "name": "Frag Grenade",
+    "manufacturer": null,
+    "classId": "weapons_throwable",
+    "class": "Explosives",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "weaponspec_thrown_molotov_default",
+    "name": "Molotov",
+    "manufacturer": null,
+    "classId": "weapons_throwable",
+    "class": "Explosives",
+    "fireStyle": null,
+    "caliber": null,
+    "category": "weapon",
+    "stats": {
+      "damageBar": null,
+      "accuracyBar": null,
+      "handlingBar": null,
+      "rangeBar": null,
+      "magazine": null
+    },
+    "patch": "1.0.2.1",
+    "updatedAt": "2026-11-24"
+  }
+]

@@ -38,6 +38,41 @@ export function* rpf9Streams(archive: Buffer): Generator<ZStream> {
   }
 }
 
+const CHUNK = 0x10000;
+const FILE_MAGIC = /^(RBF0|PSIN|<\?xm|﻿<\?x)/;
+
+/**
+ * Rebuilds files from chunk runs. A file continues while its previous chunk was exactly 64 KB,
+ * unless the next chunk starts with a known file magic (covers files that are an exact multiple of 64 KB).
+ */
+export function* rpf9Files(archive: Buffer): Generator<ZStream> {
+  let run: ZStream[] = [];
+  const flush = () => ({ offset: run[0].offset, data: run.length === 1 ? run[0].data : Buffer.concat(run.map((r) => r.data)) });
+  for (const s of rpf9Streams(archive)) {
+    const continues = run.length > 0 && run[run.length - 1].data.length === CHUNK && !FILE_MAGIC.test(s.data.toString('latin1', 0, 6));
+    if (run.length && !continues) {
+      yield flush();
+      run = [];
+    }
+    run.push(s);
+  }
+  if (run.length) yield flush();
+}
+
+/**
+ * Offsets of nested RPF9 archives. Their headers are stored uncompressed and 16-byte aligned inside the parent.
+ * data.rpf nests one archive per language (data/lang/<language>_final.rpf), so these mark the language sections.
+ */
+export function nestedArchives(archive: Buffer): number[] {
+  const out: number[] = [];
+  for (let i = archive.indexOf('9FPR', 16, 'latin1'); i !== -1; i = archive.indexOf('9FPR', i + 1, 'latin1')) {
+    if (i % 16 || archive.length - i < 0x30) continue;
+    const dataStart = archive.readUInt32LE(i + 4);
+    if (dataStart % 16 === 0 && dataStart > 0x30 && i + dataStart <= archive.length) out.push(i);
+  }
+  return out;
+}
+
 /** All streams of an archive joined in order and decoded as UTF-8. Good for locating XML; binary parts become noise. */
 export function rpf9Text(archive: Buffer): string {
   return Buffer.concat([...rpf9Streams(archive)].map((s) => s.data)).toString('utf8');

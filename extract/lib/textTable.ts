@@ -108,3 +108,54 @@ export function asciiRatio(strings: Map<number, string>): number {
   for (const s of strings.values()) if (/^[\x00-\x7e]*$/.test(s)) ascii++;
   return strings.size ? ascii / strings.size : 0;
 }
+
+export interface FoundTable {
+  offset: number;
+  table: TextTable;
+}
+
+/**
+ * English strings, picked by content:
+ * 1. Each language has one global table (≥ half the size of the largest). English is the one that is ≥ 95% ASCII,
+ *    and it must be the only such table.
+ * 2. Every table in the same language section (nested archive, see rpf9.nestedArchives) is English too.
+ *    Merged with the global table first. Labels that map to different strings in different tables are returned in
+ *    `conflicted` so callers can refuse to use them.
+ */
+export function englishStrings(tables: FoundTable[], sectionStarts: number[]) {
+  const maxLabels = Math.max(...tables.map((t) => t.table.strings.size));
+  const globals = tables
+    .filter((t) => t.table.strings.size >= maxLabels / 2)
+    .map((t) => ({ ...t, ascii: asciiRatio(t.table.strings) }))
+    .sort((a, b) => b.ascii - a.ascii);
+  const [en, runnerUp] = globals;
+  const describe = globals.map((t) => `0x${t.offset.toString(16)}:${t.ascii.toFixed(3)}`).join(' ');
+  if (!en || !runnerUp || en.ascii < 0.95 || runnerUp.ascii >= 0.95) throw new Error(`cannot identify the English table by content: ${describe}`);
+
+  const start = Math.max(-1, ...sectionStarts.filter((s) => s <= en.offset));
+  const end = Math.min(Infinity, ...sectionStarts.filter((s) => s > en.offset));
+  if (start < 0) throw new Error('English global table is not inside a nested archive');
+  const section = [en, ...tables.filter((t) => t !== en && t.offset > start && t.offset < end && t.offset !== en.offset)];
+  const skipped = section.reduce((n, t) => n + t.table.skippedSlots, 0);
+  if (skipped) throw new Error(`English section has ${skipped} text slots of an unknown kind`);
+
+  const strings = new Map<number, string>();
+  const conflicted = new Set<number>();
+  for (const t of section)
+    for (const [h, s] of t.table.strings) {
+      const prev = strings.get(h);
+      if (prev === undefined) strings.set(h, s);
+      else if (prev !== s) conflicted.add(h);
+    }
+  return { strings, conflicted, tables: section.length, globalOffset: en.offset, describe };
+}
+
+/** Resolves the game's inline case tokens (e.g. "2010~case_lower~S~case_end~" → "2010s"). Throws on other tokens. */
+export function cleanText(s: string): string {
+  const out = s
+    .replace(/~case_lower~([\s\S]*?)~case_end~/g, (_, t: string) => t.toLowerCase())
+    .replace(/~case_upper~([\s\S]*?)~case_end~/g, (_, t: string) => t.toUpperCase())
+    .trim();
+  if (out.includes('~')) throw new Error(`unhandled text token in ${JSON.stringify(s)}`);
+  return out;
+}

@@ -1,0 +1,235 @@
+{
+  "stats": {
+    "topSpeed": {
+      "file": "common.rpf › CVehiclePerformanceMaps › topSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "accelZeroTwenty": {
+      "file": "common.rpf › CVehiclePerformanceMaps › accelZeroTwenty",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "accelZeroSixty": {
+      "file": "common.rpf › CVehiclePerformanceMaps › accelZeroSixty",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "brakingSixtyZero": {
+      "file": "common.rpf › CVehiclePerformanceMaps › brakingSixtyZero",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "turnRadius": {
+      "file": "common.rpf › CVehiclePerformanceMaps › turnRadius",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "maxGforceLateral": {
+      "file": "common.rpf › CVehiclePerformanceMaps › maxGforceLateral",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "maxGforceSteering": {
+      "file": "common.rpf › CVehiclePerformanceMaps › maxGforceSteering",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "idlePitchAngle": {
+      "file": "common.rpf › CVehiclePerformanceMaps › idlePitchAngle",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "buoyancyOffsetZ": {
+      "file": "common.rpf › CVehiclePerformanceMaps › buoyancyOffsetZ",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "takeOffSpeed": {
+      "file": "common.rpf › CVehiclePerformanceMaps › takeOffSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadTopSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fTopSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadCornerSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fCornerSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadAccelerationTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fAccelerationTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadBrakingTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fBrakingTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadStandingQuarterTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fStandingQuarterTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadStandingQuarterSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fStandingQuarterSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estRoadAvgLatTraction": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesRoad › fAvgLatTraction",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadTopSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fTopSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadCornerSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fCornerSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadAccelerationTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fAccelerationTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadBrakingTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fBrakingTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadStandingQuarterTime": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fStandingQuarterTime",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadStandingQuarterSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fStandingQuarterSpeed",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "estOffroadAvgLatTraction": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › estimatesOffroad › fAvgLatTraction",
+      "unit": "unconfirmed",
+      "confidence": "low",
+      "source": "file"
+    },
+    "ratingRoadOverall": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsRoad › fOverallRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingRoadSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsRoad › fSpeedRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingRoadHandling": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsRoad › fHandlingRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingRoadAcceleration": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsRoad › fAccelerationRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingRoadBrakes": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsRoad › fBrakesRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingOffroadOverall": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsOffroad › fOverallRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingOffroadSpeed": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsOffroad › fSpeedRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingOffroadHandling": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsOffroad › fHandlingRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingOffroadAcceleration": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsOffroad › fAccelerationRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingOffroadBrakes": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › ratingsOffroad › fBrakesRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    },
+    "ratingStrength": {
+      "file": "common.rpf › CVehicleBaseRatingsAndEstimatesMap › fStrengthRating",
+      "unit": null,
+      "scale": "unknown, relative only",
+      "confidence": "medium",
+      "source": "file"
+    }
+  },
+  "attributes": {
+    "name": "file: progress-menu vehicle label (data.rpf › uiProgressDataset), English text table; falls back to the model label",
+    "shortName": "file: English text label keyed by the model name",
+    "manufacturer": "derived: full name minus the model name, or a manufacturer already derived that way prefixing the full name",
+    "group": "file: progress-menu subgroup id (cars, bikes, watercraft, aircraft, service)",
+    "classId": "file: progress-menu filter id",
+    "class": "file: progress-menu filter label (falls back to the subgroup label when the filter has none)",
+    "secondaryClass": "file: vehicle panel \"secondary class\" line",
+    "era": "file: vehicle panel \"era\" line"
+  }
+}
