@@ -20,7 +20,12 @@
 4. **None of the GTA V hint field names appear as readable text anywhere scanned:** not `fInitialDriveMaxFlatVel`, not `CWeaponInfo`/`TimeBetweenShots`, nothing. Their 32-bit hashes don't appear either, beyond random-collision levels. *(high for readable text; the hash result is inconclusive for PSO, see Blockers)*
 5. **There are better-than-hinted vehicle numbers in readable form.** `CVehiclePerformanceMaps` gives per-vehicle top speed, 0–20/0–60, 60–0 braking, turn radius and lateral g. `CVehicleBaseRatingsAndEstimatesMap` gives road/off-road speed, handling, acceleration, brake and strength ratings, plus quarter-mile estimates. That covers **~285 vehicles** as `source: file` numbers, with no derivation from handling needed. *(high that values are in the file; units unconfirmed, see §5)*
 6. **Display names will join.** 274 of 286 vehicle model keys resolve to a label in every language's text table. *(high)*
-7. **Weapon stats are not located yet.** We have the weapon info-panel UI data (damage/range/fire-rate/accuracy meters), loadouts (`WEAPONSPEC_*`) and ammo types, but not raw per-shot damage, fire delay or magazine size. *(low)*
+7. **Raw weapon stats are not located yet.** The weapon info-panel UI data (RBF0) holds **literal values**:
+   - damage, accuracy, handling and range bars on what looks like a 0–10 scale
+   - **magazine size** as an integer (assault rifle 30, revolvers 5–6)
+   - fire style and caliber as text labels
+
+   Raw per-shot damage and fire delay are not located. *(medium for the panel values, low for raw stats)*
 8. **The game executable `game_scarlett_master.exe` is referenced by the manifest but is not in the folder.** In past RAGE titles the PSO schemas lived in the executable, so the PSO data (including what looks like the per-class vehicle definition files) can't be decoded with real field names from this folder alone. *(medium)*
 
 ---
@@ -125,7 +130,7 @@ Magic `RDS5`, entry count at 0x04, then an index of packed 8-byte entries (offse
 |---|---|---|---|---|
 | **XML** (`.meta`) | `common.rpf` (318 files), a few in packs | **Yes, fully** | Classic RAGE meta XML with `<Item key=…>` and `value="…"` attributes. Large files span several chunks and join cleanly. | high |
 | **RBF0** | `data.rpf` (1,263), a few elsewhere | **Yes**: struct and field names are stored as strings, and values are typed (e.g. float64 meter values) | Mostly UI: `rage__fwuiPrefab`, `UIScreen`, info panels, `CMovieSubtitleContainer`, a couple of tunables. RDR2 also used this format. | high |
-| **Text tables** | `data.rpf`, 13 large resources (one per language, ~3.9–5.6 MB each) | **Yes**: hash-keyed entries pointing to UTF-8 strings | Keys are **joaat(label)**, stored little-endian. Verified: 10 real labels hit (mission descriptions, `LOCATION_*`, `AIRBUS`, `BLADE500`); 2 made-up labels miss. Strings use the GTA V markup (`~BLIP_…~`, `~n~`). | high |
+| **Text tables** | `data.rpf`: 12,791 tables (one ~36k-label global table per language plus thousands of small mission tables) | **Yes**: hash-keyed entries pointing to UTF-8 strings | Keys are **joaat(label)**, stored little-endian. Format fully decoded (see [`lib/textTable.ts`](lib/textTable.ts)), and all 12,791 tables parse. Hash slots of kind 1 are direct; some languages (e.g. Italian, Russian) also use another slot kind that isn't understood yet, so those slots are skipped rather than guessed. **English has none of them.** English is identified by content (the global table that is 98% ASCII). | high |
 | **PSO** (`PSIN` … `CHKS`) | `data.rpf` (2,281), scripts (3,300+), packs | **Structure only** | **No `PSCH` (schema) or `PMAP` section.** The header is a table of `(struct-name hash, size)` blocks padded with `0xAA`. Field names are not stored anywhere in the file. | high (that the schema is absent) |
 | **RAGE resources** | All large archives | Partly (pointer-based, base `0x50000000`) | Maps, models, navmesh, audio (`RSC8`), text tables. | medium |
 | **Scaleform GFX** | `data.rpf` (87) | n/a | UI movies | high |
@@ -149,7 +154,7 @@ Field names below are the **actual names found** in the files.
 ### 2. Vehicles: identity
 | Found | Where | Confidence |
 |---|---|---|
-| Model keys (e.g. `zorrusso`, `dominatorclassic`, `216cstreamer`): the `key` in the maps above | `common.rpf` XML | high |
+| Model keys (e.g. `zorrusso`, `dominatorclassic`, `airbus`): the `key` in the maps above | `common.rpf` XML | high |
 | **Display names**: label = joaat(model name), and 274/286 resolve in every language | `data.rpf` text tables | high |
 | **Vehicle info panel** (RBF0): `VEHICLESPEC_<X>_BASE_SPEC`, racing class, secondary class (e.g. `…_VAL_BIKE`), era (`PROG_VEHICLES_ERA_2010_CURRENT`), brand logo (manufacturer), mod-shop specialist, unlock type (`uiUnlockEvaluatorDiscoverable`), unique preset vehicles (`vehiclepreset_*`) | `data.rpf` RBF0 | medium |
 | **In-game stat bars** `SPEED`, `ACCELERATION`, `ASPHALT_HANDLING`, `OFFROAD_HANDLING`, `STRENGTH` as literal float64 values (e.g. 3.5, 4.3, 6.7, apparently on a 0–10 scale). `TOP_SPEED` here is bound to the player's own `FastestSpeed` stat, not a spec value. | `data.rpf` RBF0 | medium |
@@ -215,7 +220,7 @@ Some XML in `common.rpf` looks like RDR2 carry-over: `STAGECOACH002X`/`PRISONWAG
 
 1. **No file names (encrypted TOC).** Files are identified by content: XML root element, RBF0 root struct, PSO block hashes. File boundaries come from runs of 64 KB chunks. This works for XML (every root closed correctly) but needs care for binary files. *(Decision for you: is content-based identification acceptable for Phase 2? I recommend yes. Decrypting the TOC isn't needed for any data found so far.)*
 2. **PSO has no schema.** The likely vehicle/handling definitions, weapon definitions and all scripts are schema-less PSO. Their field names can't be recovered from these files, and the executable those schemas normally come from isn't in GAME_DIR. Decoding them by guessing from value ranges would conflict with CLAUDE.md's "never guess" rule unless every field is marked `confidence: "low"`. **I recommend not doing that.** Use the readable sources first.
-3. **Weapon stats have no readable source yet.** The best lead is the weapon info-panel RBF0 meters, if they hold literal values like the vehicle ones. Next step: check that, which is a single read.
+3. **Raw weapon stats have no readable source yet.** *Checked:* the weapon info-panel RBF0 meters hold literal values (0–10 bars plus integer magazine size), so a weapons leaderboard from display ratings is possible. True per-shot damage and fire delay are still missing.
 4. **Sampling gaps.** `levels.rpf` (~1 %), `story000.rpf` (~4 %), `audio.rpf` (~3 %) and `packs.rpf` (~17 %) were only sampled. A full read-only sweep for XML/RBF0/text is a few hours of disk IO.
 5. **Units and scales** for the performance maps (m/s? seconds? metres?) and rating scales (0–10?) need one human in-game spot check per field before we label them. Until then, the values are `source: file` with the unit marked `confidence: "medium"`.
 6. **Version for `_meta.json`:** `1.0.2.1` from `MicrosoftGame.Config` `<Identity Version>`.
